@@ -1,0 +1,89 @@
+* {
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    background-color: rgb(149, 219, 195);
+}
+#main_container {
+    background-color: rgb(214, 255, 244);
+    width: 400px;
+    height: 600px;
+    border-radius: 10px;
+    border: 7px solid;
+    border-color: rgb(79, 218, 171);
+    display: flex;
+    flex-direction: column;
+}
+
+#typing_container {
+    margin: 10px 10px 10px 10px;
+    width: 380px;
+    height: 180px;
+    background-color: white;
+    text-align: end;
+}
+
+.typingObject {
+    margin-right: 20px;
+    margin-top: 130px;
+    width: 360px;
+    color:  rgb(6, 126, 86);
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#number_container {
+    color:  rgb(11, 155, 107);
+    font-weight: 400;
+    font-size: 40px;
+    width: 380px;
+    height: 390px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    width: 360px;
+    height: 360px;
+}
+
+td {
+    text-align: center;
+}
+
+.top_str {
+    font-size: 20px;
+}
+
+button {
+    height: 64px;
+    width: 80px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(214, 255, 244);
+    cursor: pointer;
+    scale: 1;
+    color:  rgb(6, 126, 86);
+}
+
+button:active {
+    scale: 0.85;
+    background-color: rgb(149, 219, 195);
+}
+
+.base_str {
+    font-size: 35px;
+}
+
+.equals {
+    font-size: 35px;
+}
