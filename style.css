@@ -90,7 +90,7 @@ button:active {
 
 @media screen and (max-width: 900px) {
     body {
-        margin-top: 20px; }
+        margin-top: 35px; }
     #main_container {
         width: 350px;
         height: 525px; }
