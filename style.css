@@ -87,3 +87,28 @@ button:active {
 .equals {
     font-size: 35px;
 }
+
+@media screen and (max-width: 900px) {
+    body {
+        margin-top: 20px; }
+    #main_container {
+        width: 350px;
+        height: 525px; }
+    #typing_container {
+        width: 330px; 
+        height: 130px;}
+    #number_container {
+        width: 330px; } 
+    button {
+        margin-top: 3px;
+        width: 75px; }
+    table {
+        width: 330px;
+        height: 330px;}
+    .typingObject {
+        margin-right: 80px;
+        margin-top: 90px;
+        width: 322px;
+        font-size: 25px;
+    }
+}
